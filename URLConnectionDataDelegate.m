@@ -63,7 +63,7 @@ static URLConnectionDataDelegate *_instance = nil;
 -(void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error{
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     if ([_delegate respondsToSelector:@selector(resultWithError:)]) {
-        
+        //direction
         [_delegate resultWithError:error.localizedDescription];
     }
 
