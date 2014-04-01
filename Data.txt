@@ -1,0 +1,11 @@
+atm ### Bank.png ### Banking ### Thumb_Bank.png
+cafe ### Coffee-Shop.png ### Cafe-Shop ### Thumb_Coffee-Shop.png
+hotels ### Hotel.png ### Hotels ### Thumb_Hotels.png
+bar ### Bar.png ### Pubs & Bars ### Thumb_Pub.png
+restaurant ### Restaurant.png ### Restaurants ### Thumb_Restaurant.png
+grocery_or_supermarket ### Supermarket.png ### Supper Market ### Thumb_Supermarket.png
+taxi_stand ### Taxi.png ### Taxis ### Thumb_Taxi.png
+bus_station ### Bus-Station.png ### Bus Stations ### Thumb_Bus-Station.png
+car_repair ### Auto-Repair.png ### Car Repairs ### Thumb_Auto-Repair.png
+bakery ### Bakery.png ### Bakeris ### Thumb_Bakery.png
+book_store ### Book-Shop.png ### Book Shop ### Thumb_Book-Shop.png

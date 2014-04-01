@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'NearMeAppT3H' target in the 'NearMeAppT3H' project
+//
+
+#import <Availability.h>
+#define DOCUMENT_PATH_CHECK [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)lastObject]stringByAppendingPathComponent:@"CheckString.txt"]
+#define GOOGLE_GEOCODE @"http://maps.googleapis.com/maps/api/geocode/json?address="
+#define NEWLOCATION [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)lastObject]stringByAppendingPathComponent:@"NewLocation.txt"]
+#define GOOGLE_KEY_API @"AIzaSyC80RAPgUV_fl878PRjBVBwCJcEc7FJGLU"
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#import "GoogleMapAPI.h"
+#import "EGORefreshTableHeaderView.h"
+#import "Location.h"
+#import "LocationManger.h"
+#import "URLConnectionDataDelegate.h"
+    #import <Foundation/Foundation.h>
+#endif
